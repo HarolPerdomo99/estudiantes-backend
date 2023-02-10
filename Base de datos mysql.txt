@@ -1,0 +1,13 @@
+create database bd_estudiantes;
+use bd_estudiantes;
+
+CREATE TABLE `estudiantes`(
+`id` int NOT NULL AUTO_INCREMENT,
+`nombre` varchar(60) NOT NULL, 
+`apellido` varchar(60) NOT NULL, 
+`telefono` varchar(40) NULL,
+`correo` varchar(40) NULL,
+PRIMARY KEY(`id`)
+)
+
+select * from estudiantes;
